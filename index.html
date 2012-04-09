@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>CSS3 picture album</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css"/>
+	<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+	
+	<!-- pics -->
+	<h2>Pics:</h2>
+	<div id="pics" class="caja">
+		<ul>
+			<li>
+				<a href="#">
+					<img src="imgs/animals-q-c-140-95-5.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Bambi</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="imgs/animals-q-c-140-95-9.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Coco</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="imgs/animals-q-c-140-95-7.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Tomy</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="imgs/nature-q-c-140-95-1.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Ants</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="imgs/nature-q-c-140-95-2.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Sunset</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="imgs/nature-q-c-140-95-6.jpg"/>
+					<span class="bs"></span>
+					<span class="title">Flowers</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- -->
+	<div id="by">by <a href="http://oscarweb.com.ar/album-de-fotos-en-css3/">OscarWeb</a></div>
+	<!-- scripts -->
+	<script language="javascript">
+	$(document).ready(function(){
+		//listas
+	    $('ul li a').click(function(e) { 
+			e.preventDefault();
+	    });
+	});
+	</script>
+	<!-- -->
+	<script type="text/javascript"> 
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-20245216-2']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*************************************************/
+/*************************************************/
+/*************************************************/
+body{
+	background: #f4f4f4 url('bg.gif') repeat;
+	text-align: center;
+	margin-top: 150px;
+}
+:focus{
+	outline: none;
+}
+.caja{
+	width: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+h2{
+	display: block;
+	width: 476px;
+	font-family: Arial;
+	font-size: 13px;
+	font-style: italic;
+	color: #808080;
+	text-shadow: 0 1px 0 #fefefe;
+	text-align: left;
+	letter-spacing: 1px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #cccccc;
+	box-shadow: 0 1px 0 #fefefe;
+}
+/* pics ***************/
+#pics ul{
+	display: block;
+	width: 486px;
+	margin: auto;
+	overflow: hidden;
+}
+#pics ul li{
+	display: block;
+	width: 152px;
+	height: 107px;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+#pics ul li:hover img{
+	opacity: .7;
+}
+#pics ul li a{
+	display: block;
+	position: absolute;
+	width: 140px;
+	height: 95px;
+	border: 6px solid #fefefe;
+	font-family: Arial;
+	font-size: 12px;
+	color: #cbcbcb;
+	text-decoration: none;
+	text-shadow: 0 0 1px #404040;
+	overflow: hidden;
+	box-shadow: 0 0 1px #808080;
+}
+#pics ul li span.bs, #pics ul li img{
+	transition-duration: .2s;
+	-o-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	display: block;
+	position: absolute;
+	width: 140px;
+	height: 95px;
+	box-shadow: inset 0 0 8px #000000;
+}
+#pics ul li span.title{
+	transition-duration: .2s;
+	-o-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	display: block;
+	position: absolute;
+	width: 140px;
+	height: 18px;
+	background: rgba(20,20,20,0.5);
+	bottom: -22px;
+	padding: 4px 0 0 0;
+}
+#pics ul li a:hover span.title{
+	bottom: 0px;
+}
+/* by OscarWeb ***************/
+#by{
+	width: 430px;
+	text-align: right;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ababab;
+	text-shadow: 0 1px 1px #efefef;
+	margin: auto;
+	margin-top: 10px;
+}
+#by a{
+	text-decoration: none;
+	color: #ababab;
+}
+#by a:hover{
+	color: #404040;
+}
