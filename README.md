@@ -7,7 +7,7 @@ Attractive photo album CSS3
 Demo
 ====
 
-![screenshot](http://9ls.com.ar/oscarweb/posts/css3_picture_album_470.jpg)
+![screenshot](http://oscarweb.com.ar/ejemplos/css3-picture-album/thumb.jpg)
 
 Don't forget to check the [live demo](http://oscarweb.com.ar/ejemplos/css3-picture-album/)
 
